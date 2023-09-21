@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #000; /*#416DF4*/
+  max-width: 1920px;
+  color: #fff;
+}
+
+/*? header start */
+.header_container {
+  position: relative;
+  background-image: url(./assets/images/hue_bgp.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header_shadow {
+  position: absolute;
+  width: 100%;
+  height: 897px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 35%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  z-index: 5;
+}
+.header_container .header_container_logo {
+  position: absolute;
+  width: 376px;
+  height: 348px;
+  left: 765px;
+  z-index: 10;
+}
+
+.header_container .woman_costume {
+  width: 577px;
+  height: 876px;
+}
+
+/* .header_container .blue_light {
+  background-image: url(./assets/images/blue_light.png);
+  width: 100%;
+  height: 892px;
+  z-index: 3;
+} */
+.header_container .costumes {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.header_container .boxes {
+  position: absolute;
+  left: 525px;
+  height: 525px;
+  bottom: 133px;
+  z-index: 10;
+}
+
+.shadows {
+  width: 100%;
+  height: 892px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 8;
+  top: 0;
+}
+.blue_glow {
+  bottom: 0px;
+  position: absolute;
+  z-index: 9;
+}
+.blue_light {
+  position: absolute;
+  z-index: 9;
+}
+.blue_light img {
+  width: 100%;
+  height: 892px;
+  opacity: 70%;
+}
+.header_texts {
+  position: absolute;
+  bottom: 47px;
+  z-index: 20;
+  right: 520px;
+}
+.header_texts h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+.header_texts p {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+}
+/* header end */
+
+/*? main container */
+.main_container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.main_container_section_img {
+  width: 441px;
+}
+.list_container li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: solid 0.1px #671d007a;
+  align-items: center;
+}
+.list_container p {
+  font-family: Roboto;
+}
+.main_container_sections {
+  width: 632px;
+  font-family: "Roboto", sans-serif;
+}
+.main_container_sections h2 {
+  margin-top: 54px;
+  margin-bottom: 39px;
+  color: #416df4;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main_text {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 9px;
+}
+.main_text p {
+  color: #671d00;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 11px;
+  border: solid 0.1px #671d007a;
+  padding: 5px;
+}
+.img_button_to_buy_and_price {
+  display: flex;
+  position: relative;
+}
+.img_button_to_buy_and_price img {
+  width: 402px;
+}
+.button_to_buy_and_price {
+  align-self: flex-end;
+
+  position: absolute;
+  left: 268px;
+  bottom: 52px;
+}
+.button_to_buy_and_price p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button_to_buy_and_price button {
+  border-radius: 7px;
+  background: #fcff00;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px 30px;
+  text-align: center;
+  border: none;
+}
